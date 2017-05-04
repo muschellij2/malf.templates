@@ -1,0 +1,61 @@
+---
+title: "Using the MALF Templates"
+author: "John Muschelli"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the MALF Templates}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Data Disclaimer
+
+This package wraps the templates with the cerebellum from the MICCAI 2012 Grand Challenge and Workshop on Multi-Atlas Labeling [http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Main_Page](http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Main_Page).
+
+The challenge details are located at [http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Challenge_Details](http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Challenge_Details)
+
+The data were be released under the Creative Commons Attribution-NonCommercial ([CC BY-NC](https://creativecommons.org/licenses/by-nc/3.0/)) with no end date. Users should credit the MRI scans as originating from the OASIS project and the labeled data as "provided by Neuromorphometrics, Inc. (http://Neuromorphometrics.com/) under academic subscription". These references should be included in all workshop and final publications.
+
+A summary of this message is seen when you load in the package:
+```{r, message = TRUE}
+library(malf.templates)
+```
+
+# Where is the Data located?
+
+The `malf_images` is the general workhorse function for returning the data from the MALF templates.  It takes one argument (`group`) to indicate which group from the competition to take the data (`train` or `test`).  If both groups are passed, then all the data is returned.  Group would generally only be specified if you wanted to do something relevant to the competition. 
+
+```{r}
+mi = malf_images()
+names(mi)
+```
+ The return is a list of filenames, broken into `images` (raw T1-weighted scans), `labels` (delineated labeled structures), `brains` (processed T1-weighted images, skull-stripped), `masks` (binary brain masks).
+ 
+
+## Derivative Functions
+
+The `malf_template_images`, `malf_template_labels`, `malf_template_brains`, `malf_template_masks` functions all call `malf_images` and take the relevant element of the list for easier use.
+
+
+## MASS Derivatives
+For backwards compatibility when the `mass.templates` package was integrated, the `mass_images` function was created.  It simply returns the 
+images and the brain masks.  Generally, these are used for MASS (multi-atlas skull stripping), which is a bit more specific (but more widely-applicable) applicatio of label fusion:
+
+```{r}
+mi = mass_images()
+names(mi)
+head(mass_template_images())
+head(mass_template_masks())
+```
+
+The large difference is that `mass_images` (and the derivative functions) simply take the `n_templates` argument for the number of templates to return (from 1 to 35).  
+
+## What to use them with?
+
+Using the `extrantsr::malf` function, these functions can be used for MALF.  The images/brain images are passed into the `template.images` argument and the structures/brain masks are passed into the `template.structs` argument. 
+### Why have you not shown me a MALF example?
+
+We have not included this code in the vignettes due to install times for `extrantsr` as a `Suggests` package.
+
+

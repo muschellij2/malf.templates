@@ -1,0 +1,21 @@
+Package: malf.templates
+Type: Package
+Title: Template Images for Multi-Atlas Label Fusion ('MALF')
+Version: 0.3
+Date: 2017-02-24
+Author: John Muschelli
+Maintainer: John Muschelli <muschellij2@gmail.com>
+Description: Data set of 'NIfTI' images with corresponding labels for 
+    multi-atlas labeling and label fusion of magnetic resonance images ('MRI').
+    These images are from the 'MICCAI' 2012 Grand Challenge and 
+    Workshop on Multi-Atlas Labeling 
+    <http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Main_Page>.
+    Primarily used for T1-weighted imaging.
+License: GPL-2 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Main_Page
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
