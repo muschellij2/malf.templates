@@ -26,8 +26,6 @@ malf_template_labels(...)
 \code{test}, all images will be returned.}
 
 \item{...}{arguments to pass \code{\link{malf_images}}}
-
-\item{...}{arguments to pass \code{\link{malf_images}}}
 }
 \value{
 List of filenames

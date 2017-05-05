@@ -40,7 +40,6 @@ malf_template_images = function(...) {
 }
 
 #' @rdname malf_images
-#' @param ... arguments to pass \code{\link{malf_images}}
 #' @export
 malf_template_tissues = function(...) {
   L = malf_images(...)
