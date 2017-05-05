@@ -3,6 +3,7 @@
 \name{malf_images}
 \alias{malf_images}
 \alias{malf_template_images}
+\alias{malf_template_tissues}
 \alias{malf_template_brains}
 \alias{malf_template_masks}
 \alias{malf_template_labels}
@@ -11,6 +12,8 @@
 malf_images(group = c("train", "test"))
 
 malf_template_images(...)
+
+malf_template_tissues(...)
 
 malf_template_brains(...)
 
@@ -21,6 +24,8 @@ malf_template_labels(...)
 \arguments{
 \item{group}{the group of images to return.  If both \code{train} and
 \code{test}, all images will be returned.}
+
+\item{...}{arguments to pass \code{\link{malf_images}}}
 
 \item{...}{arguments to pass \code{\link{malf_images}}}
 }

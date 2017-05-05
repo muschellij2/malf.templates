@@ -17,11 +17,13 @@ malf_images = function(group = c("train", "test")){
   labels = paste0(ids, "_glm.nii.gz")
   ss = paste0(ids, "_SS.nii.gz")
   masks = paste0(ids, "_mask.nii.gz")
+  tissues = paste0(ids, "_tissues.nii.gz")
 
   L = list(images = fnames,
            labels = labels,
            brains = ss,
-           masks = masks)
+           masks = masks,
+           tissues = tissues)
   L = lapply(L, function(x) {
     fnames = system.file( "extdata", x,
                         package = "malf.templates")
@@ -35,6 +37,14 @@ malf_images = function(group = c("train", "test")){
 malf_template_images = function(...) {
   L = malf_images(...)
   return(L$images)
+}
+
+#' @rdname malf_images
+#' @param ... arguments to pass \code{\link{malf_images}}
+#' @export
+malf_template_tissues = function(...) {
+  L = malf_images(...)
+  return(L$tissues)
 }
 
 #' @rdname malf_images
