@@ -1,0 +1,202 @@
+Label Number,Label Name,Class
+1,Unlabeled,None
+2,aals,
+3,ahls,
+4,3rd Ventricle,CSF
+5,calcarine,GM
+6,central,
+7,central_insular,GM
+8,cingulate,GM
+9,circular,
+10,collateral,
+11,4th Ventricle,CSF
+12,first_transverse,
+13,Heschls,
+14,inferior_frontal,
+15,5th Ventricle,CSF
+16,intraparietal,
+17,primary_inter,
+18,lateral_occipital,
+19,occ_temporal,
+20,olfactory,
+21,par_occipital,
+22,pals,
+23,Right Accumbens Area,GM
+24,phls,
+25,postcentral,
+26,precentral,
+27,subparietal,
+28,superior_frontal,
+29,superior_temporal,
+30,Left Accumbens Area,GM
+31,Right Amygdala,GM
+32,Left Amygdala,GM
+33,Right Amygdala Anterior,GM
+34,Left Amygdala Anterior,GM
+35,Brain Stem,WM
+36,Right Caudate,GM
+37,Left Caudate,GM
+38,Right Cerebellum Exterior,GM
+39,Left Cerebellum Exterior,GM
+40,Right Cerebellum White Matter,WM
+41,Left Cerebellum White Matter,WM
+42,Right Cerebral Exterior,WM
+43,Left Cerebral Exterior,WM
+44,Right Cerebral White Matter,WM
+45,Left Cerebral White Matter,WM
+46,CSF,CSF
+47,Right Hippocampus,GM
+48,Left Hippocampus,GM
+49,Right Inf Lat Vent,CSF
+50,Left Inf Lat Vent,CSF
+51,Right Lateral Ventricle,CSF
+52,Left Lateral Ventricle,CSF
+53,Right Lesion,None
+54,Left Lesion,None
+55,Right Pallidum,GM
+56,Left Pallidum,GM
+57,Right Putamen,GM
+58,Left Putamen,GM
+59,Right Thalamus Proper,GM
+60,Left Thalamus Proper,GM
+61,Right Ventral DC,WM
+62,Left Ventral DC,WM
+63,Right vessel,None
+64,Left vessel,None
+65,Left Insula,GM
+66,Right Insula,GM
+67,Left Operculum,
+68,Right Operculum,
+69,Optic Chiasm,WM
+70,Basal Forebrain,
+71,Cerebellar Vermal Lobules I-V,GM
+72,Cerebellar Vermal Lobules VI-VII,GM
+73,Cerebellar Vermal Lobules VIII-X,GM
+74,Vitamin E Tablet,None
+75,Left Basal Forebrain,GM
+76,Right Basal Forebrain,GM
+80,frontomarginal,
+81,inferior_rostral,
+82,inferior_temporal,
+83,lateral_orbital,
+84,superior_rostral,
+85,lateral,
+86,anterior_occipital,
+87,lhos,
+88,mhos,
+89,superior_vermal_sulcus,GM
+90,central_vermal_sulcus,GM
+91,inferior_vermal_sulcus,GM
+92,lateral_vermal_sulcus,GM
+93,thos,
+97,RED,
+98,YELLOW,
+99,CYAN,
+100,Right ACgG  anterior cingulate gyrus,GM
+101,Left ACgG  anterior cingulate gyrus,GM
+102,Right AIns  anterior insula,GM
+103,Left AIns  anterior insula,GM
+104,Right AOrG  anterior orbital gyrus,GM
+105,Left AOrG  anterior orbital gyrus,GM
+106,Right AnG   angular gyrus,GM
+107,Left AnG   angular gyrus,GM
+108,Right Calc  calcarine cortex,GM
+109,Left Calc  calcarine cortex,GM
+110,Right CgG   cingulate gyrus,GM
+111,Left CgG   cingulate gyrus,GM
+112,Right CO    central operculum,GM
+113,Left CO    central operculum,GM
+114,Right Cun   cuneus,GM
+115,Left Cun   cuneus,GM
+116,Right Ent   entorhinal area,GM
+117,Left Ent   entorhinal area,GM
+118,Right FO    frontal operculum,GM
+119,Left FO    frontal operculum,GM
+120,Right FRP   frontal pole,GM
+121,Left FRP   frontal pole,GM
+122,Right FuG   fusiform gyrus,GM
+123,Left FuG   fusiform gyrus,GM
+124,Right GRe   gyrus rectus,GM
+125,Left GRe   gyrus rectus,GM
+126,Right IFG   inferior frontal gyrus,GM
+127,Left IFG   inferior frontal gyrus,GM
+128,Right IOG   inferior occipital gyrus,GM
+129,Left IOG   inferior occipital gyrus,GM
+130,Right IOrG  intermediate orbital gyrus,GM
+131,Left IOrG  intermediate orbital gyrus,GM
+132,Right ITG   inferior temporal gyrus,GM
+133,Left ITG   inferior temporal gyrus,GM
+134,Right LiG   lingual gyrus,GM
+135,Left LiG   lingual gyrus,GM
+136,Right LOrG  lateral orbital gyrus,GM
+137,Left LOrG  lateral orbital gyrus,GM
+138,Right MCgG  middle cingulate gyrus,GM
+139,Left MCgG  middle cingulate gyrus,GM
+140,Right MFC   medial frontal cortex,GM
+141,Left MFC   medial frontal cortex,GM
+142,Right MFG   middle frontal gyrus,GM
+143,Left MFG   middle frontal gyrus,GM
+144,Right MOG   middle occipital gyrus,GM
+145,Left MOG   middle occipital gyrus,GM
+146,Right MOrG  medial orbital gyrus,GM
+147,Left MOrG  medial orbital gyrus,GM
+148,Right MPoG  postcentral gyrus medial segment,GM
+149,Left MPoG  postcentral gyrus medial segment,GM
+150,Right MPrG  precentral gyrus medial segment,GM
+151,Left MPrG  precentral gyrus medial segment,GM
+152,Right MSFG  superior frontal gyrus medial segment,GM
+153,Left MSFG  superior frontal gyrus medial segment,GM
+154,Right MTG   middle temporal gyrus,GM
+155,Left MTG   middle temporal gyrus,GM
+156,Right OCP   occipital pole,GM
+157,Left OCP   occipital pole,GM
+158,Right OFC   orbitofrontal cortex,GM
+159,Left OFC   orbitofrontal cortex,GM
+160,Right OFuG  occipital fusiform gyrus,GM
+161,Left OFuG  occipital fusiform gyrus,GM
+162,Right OpIFG opercular part of the inferior frontal gyrus,GM
+163,Left OpIFG opercular part of the inferior frontal gyrus,GM
+164,Right OrIFG orbital part of the inferior frontal gyrus,GM
+165,Left OrIFG orbital part of the inferior frontal gyrus,GM
+166,Right PCgG  posterior cingulate gyrus,GM
+167,Left PCgG  posterior cingulate gyrus,GM
+168,Right PCu   precuneus,GM
+169,Left PCu   precuneus,GM
+170,Right PHG   parahippocampal gyrus,GM
+171,Left PHG   parahippocampal gyrus,GM
+172,Right PIns  posterior insula,GM
+173,Left PIns  posterior insula,GM
+174,Right PO    parietal operculum,GM
+175,Left PO    parietal operculum,GM
+176,Right PoG   postcentral gyrus,GM
+177,Left PoG   postcentral gyrus,GM
+178,Right POrG  posterior orbital gyrus,GM
+179,Left POrG  posterior orbital gyrus,GM
+180,Right PP    planum polare,GM
+181,Left PP    planum polare,GM
+182,Right PrG   precentral gyrus,GM
+183,Left PrG   precentral gyrus,GM
+184,Right PT    planum temporale,GM
+185,Left PT    planum temporale,GM
+186,Right SCA   subcallosal area,GM
+187,Left SCA   subcallosal area,GM
+188,Right SCLC  supracalcarine cortex,GM
+189,Left SCLC  supracalcarine cortex,GM
+190,Right SFG   superior frontal gyrus,GM
+191,Left SFG   superior frontal gyrus,GM
+192,Right SMC   supplementary motor cortex,GM
+193,Left SMC   supplementary motor cortex,GM
+194,Right SMG   supramarginal gyrus,GM
+195,Left SMG   supramarginal gyrus,GM
+196,Right SOG   superior occipital gyrus,GM
+197,Left SOG   superior occipital gyrus,GM
+198,Right SPL   superior parietal lobule,GM
+199,Left SPL   superior parietal lobule,GM
+200,Right STG   superior temporal gyrus,GM
+201,Left STG   superior temporal gyrus,GM
+202,Right TMP   temporal pole,GM
+203,Left TMP   temporal pole,GM
+204,Right TrIFG triangular part of the inferior frontal gyrus,GM
+205,Left TrIFG triangular part of the inferior frontal gyrus,GM
+206,Right TTG   transverse temporal gyrus,GM
+207,Left TTG   transverse temporal gyrus,GM

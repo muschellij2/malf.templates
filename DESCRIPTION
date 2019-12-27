@@ -1,8 +1,8 @@
 Package: malf.templates
 Type: Package
 Title: Template Images for Multi-Atlas Label Fusion ('MALF')
-Version: 0.3.1
-Date: 2017-02-24
+Version: 1.0.1
+Date: 2019-12-29
 Author: John Muschelli
 Maintainer: John Muschelli <muschellij2@gmail.com>
 Description: Data set of 'NIfTI' images with corresponding labels for 
@@ -14,7 +14,7 @@ Description: Data set of 'NIfTI' images with corresponding labels for
 License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 7.0.1
 URL: http://masiweb.vuse.vanderbilt.edu/workshop2012/index.php/Main_Page
 BugReports: https://github.com/muschellij2/malf.templates/issues
 Suggests: knitr,
