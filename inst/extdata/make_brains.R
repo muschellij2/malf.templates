@@ -48,6 +48,7 @@ for (iimg in seq(nrow(df))) {
     mask = label > 0
     filled = filler(mask, fill_size = 5) %>%
       oMath("FillHoles")
+    filled = filled > 0
     writenii(filled, mask_fname)
     ss = mask_img(img, filled)
     writenii(ss, ss_fname)

@@ -1,7 +1,7 @@
 Package: malf.templates
 Type: Package
 Title: Template Images for Multi-Atlas Label Fusion ('MALF')
-Version: 1.0.1
+Version: 1.2.0
 Date: 2019-12-29
 Author: John Muschelli
 Maintainer: John Muschelli <muschellij2@gmail.com>

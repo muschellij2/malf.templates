@@ -10,8 +10,8 @@ df = data.frame(image = imgs,
                 stringsAsFactors = FALSE)
 df$ss = gsub("[.]nii", "_SS.nii", df$image)
 df$mask = gsub("[.]nii", "_mask.nii", df$image)
-df$tissues = gsub("[.]nii", "_tissues.nii", df$image)
-iimg = 5
+df$fast = gsub("[.]nii", "_tissues.nii", df$image)
+iimg = 1
 
 
 for (iimg in seq(nrow(df))) {
@@ -20,14 +20,15 @@ for (iimg in seq(nrow(df))) {
   img_fname = df$image[iimg]
   ss_fname = df$ss[iimg]
   mask_fname = df$mask[iimg]
-  label_fname = df$tissues[iimg]
+  label_fname = df$fast[iimg]
 
   if (!all(file.exists(label_fname))) {
 
     ss = readnii(ss_fname)
     mask = readnii(mask_fname)
     # qimg = quantile_img(ss, mask = mask)
-    ss = robust_window(ss, mask = mask, probs = c(0, 0.9999))
+    ss = robust_window(ss, mask = mask,
+      probs = c(0, 0.9999))
     ss = mask_img(ss, mask)
 
     bc = bias_correct(ss,
